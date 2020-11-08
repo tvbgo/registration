@@ -1,0 +1,21 @@
+.hide {
+  display: none;
+}
+.cards {
+  width: 40%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.card {
+  background-color: rgba(245, 213, 71, 0.8);
+  text-align: center;
+  width: 100%;
+  border: 1px outset black;
+  border-radius: 6px;
+}
+
+.card:hover .hide {
+  display: inline-grid;
+  font-size: 15px;
+  padding: 5px;
+}
