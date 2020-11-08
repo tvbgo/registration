@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: Montserrat, sans-serif;
+  background-color: rgb(255, 250, 250);
+
+}
+h2 {
+  font-size: 35px;
+  color: rgba(48, 107, 172, 0.8);
+  text-shadow: 1px 1px;
+}
+.hide {
+  display: none;
+}
+
+.container {
+  width: 80%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  background-color: rgba(166, 156, 172, 0.1);
+  box-shadow: 1px 2px 2px 1px rgba(240, 240, 240, 0.3), 6px 8px 8px 6px rgba(40, 40, 40, 0.6);
+}
+.cards {
+  width: 40%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.card {
+  background-color: rgba(245, 213, 71, 0.8);
+  text-align: center;
+  margin: 10px 0;
+  width: 100%;
+  box-shadow: 1px 2px 2px 1px rgba(240, 240, 240, 0.3), 3px 4px 4px 3px rgba(40, 40, 40, 0.6);
+  border-radius: 6px;
+  transition: 0.5s;
+}
+
+.card:hover .hide {
+  display: inline-grid;
+}
+
+.card p {
+
+}
+img {
+  width: 40%;
+  border-radius: 50%;
+}
+
+
+
